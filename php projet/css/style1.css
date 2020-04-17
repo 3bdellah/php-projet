@@ -1,0 +1,152 @@
+body 
+{
+    background-image: url(../image/bg.jpg);
+    background-size:cover;
+}
+#logo
+{
+     float: right;
+}
+.etoile
+{
+    color: white;
+}
+.site
+{
+    font-family: 'Holtwood One SC', sans-serif;
+}
+.text-logo
+{
+    font-family: 'Holtwood One SC', sans-serif;
+    color: #e7480f;
+    text-shadow: 2px 2px #ffd301;
+    font-size: 50px;
+    padding: 40px 0px;
+    text-align: center;
+}
+#n1
+{
+   margin-bottom: 10px;
+    float:left ;
+   align-content: center;
+}
+
+.price
+{
+    background: #5cb85c;
+    box-shadow: 0 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 1px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 1px rgba(0,0,0,0.2);
+    color: #000;
+    text-shadow: 2px 3px #333;
+    position: absolute;
+    right: 6px;
+    top: 20px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+.price:before 
+{
+    border: 4px solid transparent;
+    border-bottom: 4px solid #4a934a;
+    border-left: 4px solid #4a934a;
+    content: "";
+    position: absolute;
+    right: 1px;
+    top: -8px;
+}
+.caption > h4
+{
+    color: #e7480f;
+    font-size: 18px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover
+{
+    background: #03578b;
+}
+.nav>li>a:focus, .nav>li>a:hover 
+{
+    color: #e7480f;
+    background-color: #eee;
+}
+.nav>li>a
+{
+    color: #eee;
+    font-size: 18px;
+    text-shadow: 2px 2px #333;
+}
+.btn-order
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e7480f;
+    text-decoration: none;
+    text-shadow: 2px 2px #333;
+}
+.btn-order:hover, .btn-order:focus
+{
+    color: #fff;
+    background-color: #c13c0d;
+}
+
+/*  ADMIN */
+
+.admin
+{
+    background: #fff;
+    padding: 50px;
+    border-radius: 10px;
+}
+.help-inline
+{
+    color: red;
+}
+#main-image{
+    background-image: url(../image/main.jpg);
+    background-size: cover;
+    width:100%;
+    height:1000px;
+align:center;
+margin-bottom: 0px;
+}
+#main-image h2{
+    font-weight:normal;
+    text-transform: uppercase;
+    text-align:center;
+    padding:80px 0 400px 0;
+    margin-bottom: 20px;
+    }
+.button-1{
+    
+    display:block;
+    width:150px;
+    height:50px;
+    background-image: linear-gradient(to right,#ff105f,#ffad06);
+    color:#fff;
+    font-size: 20px;
+    margin:0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius:3px;
+    text-transform: uppercase;
+}
+footer{
+    height:260px;
+    background-color: #444;
+}
+footer h2{
+    color:#fff;
+    text-align: center;
+    padding-top: 100px;
+}
+.copyright
+{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15px;
+    color: #777 ;
+}
+
